@@ -1,0 +1,113 @@
+.body-text-container {
+    color: rgb(176, 138, 211);
+    text-align: center;
+    z-index: 1;
+  }
+.main-text{
+    padding: 150px 800px 0px 2px;
+}
+.btn{
+     display: flex;
+     flex-direction: column;
+     padding: 0px 100px 0px 800px;
+     margin-left: 215px;
+}
+ul{
+    list-style: none;
+}
+.btn1 {
+  background-color: #8304aa;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 45%;
+  padding: 10px 0; /* Adjust padding for consistent height */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn1:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #8304aa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+.btn2 {
+  background-color: #7c4195;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 45%;
+  padding: 10px 0; /* Adjust padding for consistent height */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  width: 45%;
+}
+.btn2:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #7c4195;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  width: 45%;
+}
+.btn3 {
+  background-color: rgb(201, 6, 250);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 45%;
+  padding: 10px 0; /* Adjust padding for consistent height */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn3:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(201, 6, 250);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+.btn4 {
+  background-color: rgb(153, 102, 204);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 45%;
+  padding: 10px 0; /* Adjust padding for consistent height */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn4:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(153, 102, 204);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+.name{
+    font-size: 4rem;
+    color: #9c64ae;
+}
+p {
+    font-size: 2rem;
+    padding: 2px;  
+    margin-left: 1px;
+  }
+  

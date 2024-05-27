@@ -1,0 +1,23 @@
+.mySkills {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .mySkills h2 {
+    font-size: 2rem;
+    color: rgb(103, 74, 170);
+    margin-bottom: 2.5rem;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .image-container img {
+    width: 125px;
+    height: 125px;
+    transition: filter 0.3s ease-in-out;
+  }

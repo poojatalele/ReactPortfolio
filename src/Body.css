@@ -1,0 +1,7 @@
+.background-container{
+    height: 100vh;
+    background-image: url('bg.png'); /* Ensure the correct path */
+    background-size: cover;
+    background-position: center;
+  }
+  
