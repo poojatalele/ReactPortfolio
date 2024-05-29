@@ -35,15 +35,22 @@
     font-size: 1.5rem;
     color: grey;
 }
-
-.navLink {
-    text-decoration: none;
-    color: grey;
-    transition: color 0.3s, text-decoration 0.3s;
+.nav-item{
+    margin: 0 15px;
 }
-
-.navLink:hover {
-    color: black;
-    cursor: pointer;
-    text-decoration: underline;
+.nav-item a{
+    color: grey;
+    text-decoration: none;
+    padding: 5px 0;
+}
+.nav-item a::after{
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: rgb(16, 15, 15);
+    display: block;
+    transition: width 0.3s ease;
+}
+.nav-item a:hover::after{
+    width: 100%;
 }
