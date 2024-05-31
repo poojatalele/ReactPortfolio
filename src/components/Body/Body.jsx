@@ -1,5 +1,5 @@
 import './Body.css';
-import BodyText from './BodyText';
+import BodyText from '../BodyText/BodyText';
 
 function Body() {
   return (
@@ -8,6 +8,5 @@ function Body() {
     </div>
   );
 }
-
 export default Body;
 

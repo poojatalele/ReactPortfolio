@@ -1,13 +1,14 @@
 import './MySkills.css'
-import htmlLogo from './components/htmllogo.png';
-import cssLogo from './components/CSS-Logo.png';
-import javaLogo from './components/java-logo.png';
-import dockerLogo from './components/Docker-logo.png';
-import pythonLogo from './components/python-logo.png';
-import reactLogo from './components/react-logo.png';
-import cppLogo from './components/c++ logo.png';
-import sqlLogo from './components/sql-logo.png';
-import npmLogo from './components/npm-logo.png';
+import htmlLogo from '../images/htmllogo.png';
+import cssLogo from '../images/CSS-Logo.png';
+import javaLogo from '../images/java-logo.png';
+import dockerLogo from '../images/Docker-logo.png';
+import pythonLogo from '../images/python-logo.png';
+import reactLogo from '../images/react-logo.png';
+import cppLogo from '../images/c++ logo.png';
+import sqlLogo from '../images/sql-logo.png';
+import npmLogo from '../images/npm-logo.png';
+
 function MySkills(){
     return(
         <div className="mySkills">
