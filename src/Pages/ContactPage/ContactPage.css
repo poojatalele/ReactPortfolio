@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.contact-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 60px; 
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.contact-title{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+.contact-description{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: small;
+    font-size: 1.5rem;
+    color: rgb(68, 65, 65);
+    margin-bottom: 10px;
+}
+.form-instruction{
+    font-size: 1rem;
+}
+.contact-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 40px; 
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%; 
+    max-width: 500px; 
+    padding: 10px; 
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #8304aa;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 45%;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-form button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #8304aa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}

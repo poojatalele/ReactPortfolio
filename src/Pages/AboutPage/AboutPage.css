@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 .card-container {
     display: flex;
     flex-direction: row;
@@ -6,8 +8,6 @@
     align-items: center;
     height: 100vh;
     background-image: url('bg.png');
-    background-size: cover;
-    background-position: center;
     background-size: cover;
     background-position: center;
     padding: 250px; 
@@ -48,21 +48,15 @@
     margin-bottom: 10px;
     margin-left: 50px;
   }
-  .card-headerText {
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 3rem;
-    color: blueviolet;
-    margin-bottom: 10px;
-    margin-left: 275px;
-  }
-  
   .card-subheader {
     font-size: 22px;
-    color: #555;
+    color: rgb(57, 0, 88);
     margin-bottom: 10px;
     margin-left: 50px;
     margin-top: 25px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
   
   .card-text {

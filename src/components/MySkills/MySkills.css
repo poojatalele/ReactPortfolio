@@ -1,23 +1,28 @@
 .mySkills {
-    text-align: center;
-    margin-top: 2rem;
-  }
-  
-  .mySkills h2 {
-    font-size: 2rem;
-    color: rgb(103, 74, 170);
-    margin-bottom: 2.5rem;
-  }
-  
-  .image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-  }
-  
-  .image-container img {
-    width: 125px;
-    height: 125px;
-    transition: filter 0.3s ease-in-out;
-  }
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.mySkills h2 {
+  font-size: 2.5rem; 
+  color: #674aa7; 
+  margin-bottom: 2.5rem;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  gap: 1.5rem;
+  padding: 0 10%; 
+}
+
+.image-container img {
+  width: calc((100% - 6rem) / 6); 
+  height: auto; 
+}
+.image-container img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+}

@@ -15,7 +15,7 @@ function BodyText() {
         </button>
         <button className="btn2">Education</button>
         <button className="btn3">Experience</button>
-        <button className="btn4">Tableau Resume</button>
+        <button className="btn4"><Link to="https://www.resume.com/" target="_blank" className="link-button">Tableau Resume</Link></button>
       </div>
     </div>
   );
