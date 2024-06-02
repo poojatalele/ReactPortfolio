@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    padding: 250px; 
+    border-radius: 5px; 
+  }
+  .card-contact{
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .card-content {
+    flex: 3;
+    padding-right: 20px;
+  }
+  
+  .card-image {
+    flex: 1;
+    max-width: 300px;
+    order: 2;
+  }
+  .contact-list{
+    margin-left: 275px;
+    display: flex;
+  }
+  .card-image img {
+    width: 150%;
+    height: auto;
+    display: block;
+    margin-top: 80px;
+    margin-right: 20px;
+  }
+  
+  .card-header {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    color: blueviolet;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  .card-headerText {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    color: blueviolet;
+    margin-bottom: 10px;
+    margin-left: 275px;
+  }
+  
+  .card-subheader {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+  
+  .card-text {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+    padding: 40px;
+    padding-top: 20px;
+  }
+  
