@@ -13,8 +13,8 @@ function BodyText() {
         <button className="btn1">
           <Link to="/about" className="link-button">More About Me</Link>
         </button>
-        <button className="btn2">Education</button>
-        <button className="btn3">Experience</button>
+        <button className="btn2"><Link to="/education" className="link-button">Education</Link></button>
+        <button className="btn3"><Link to="/experience" className='link-button'>Experience</Link></button>
         <button className="btn4"><Link to="https://www.resume.com/" target="_blank" className="link-button">Tableau Resume</Link></button>
       </div>
     </div>
