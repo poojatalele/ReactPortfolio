@@ -5,7 +5,7 @@ import javaLogo from '../images/java-logo.png';
 import dockerLogo from '../images/Docker-logo.png';
 import pythonLogo from '../images/python-logo.png';
 import reactLogo from '../images/react-logo.png';
-import cppLogo from '../images/c++ logo.png';
+import cppLogo from '../images/cpplogo.png';
 import sqlLogo from '../images/sql-logo.png';
 import npmLogo from '../images/npm-logo.png';
 
