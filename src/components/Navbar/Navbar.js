@@ -8,9 +8,11 @@ function Navbar() {
       <h1 className="title"><Link to="/">Pooja Talele</Link></h1>
       <ul className="nav">
         <li className="nav-item"><Link to="/" className="navLink">Home</Link></li>
-        <li className="nav-item"><Link to="/contact" className="navLink">Contact</Link></li>
+        <li className="nav-item"><Link to="/contact" className="navLink" target='_blank'>Contact</Link></li>
+        <li className="nav-item"><Link to="/skills" className="navLink" target='_blank'>Skills</Link></li>
+        <li className="nav-item"><Link to="/projects" className="navLink" target='_blank'>Projects</Link></li>
         <li>|</li>
-        <li className="nav-item"><Link to="/about" className="navLink">About</Link></li>
+        <li className="nav-item"><Link to="/about" className="navLink" target='_blank'>About</Link></li>
       </ul>
     </nav>
   );

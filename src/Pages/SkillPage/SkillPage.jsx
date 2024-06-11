@@ -1,13 +1,14 @@
-import './MySkills.css'
-import htmlLogo from '../images/htmllogo.png';
-import cssLogo from '../images/CSS-Logo.png';
-import javaLogo from '../images/java-logo.png';
-import dockerLogo from '../images/Docker-logo.png';
-import pythonLogo from '../images/python-logo.png';
-import reactLogo from '../images/react-logo.png';
-import cppLogo from '../images/cpplogo.png';
-import sqlLogo from '../images/sql-logo.png';
-import npmLogo from '../images/npm-logo.png';
+import './SkillPage.css'
+import htmlLogo from '../../components/images/htmllogo.png';
+import cssLogo from '../../components/images/CSS-Logo.png';
+import javaLogo from '../../components/images/java-logo.png';
+import dockerLogo from '../../components/images/Docker-logo.png';
+import pythonLogo from '../../components/images/python-logo.png';
+import reactLogo from '../../components/images/react-logo.png';
+import cppLogo from '../../components/images/cpplogo.png';
+import sqlLogo from '../../components/images/sql-logo.png';
+import npmLogo from '../../components/images/npm-logo.png';
+import Navbar from '../../components/Navbar/Navbar';
 
 function MySkills(){
     return(

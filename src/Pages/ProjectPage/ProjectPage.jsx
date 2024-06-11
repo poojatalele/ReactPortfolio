@@ -1,5 +1,5 @@
 import React from 'react';
-import './Project.css'; 
+import './ProjectPage.css'; 
 import quotelogo from '../../components/images/quote-logo.png';
 import googlelogo from '../../components/images/google.png';
 import facebooklogo from '../../components/images/facebook.png';
