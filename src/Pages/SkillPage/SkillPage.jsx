@@ -8,7 +8,6 @@ import reactLogo from '../../components/images/react-logo.png';
 import cppLogo from '../../components/images/cpplogo.png';
 import sqlLogo from '../../components/images/sql-logo.png';
 import npmLogo from '../../components/images/npm-logo.png';
-import Navbar from '../../components/Navbar/Navbar';
 
 function MySkills(){
     return(

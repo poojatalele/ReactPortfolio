@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutPage.css';
-import Card from '../../components/Tile/Card';
+import Card from '../../components/Card/Card';
 import Navbar from "../../components/Navbar/Navbar";
 import proficpic from '../../components/images/pic.jpeg';
 import ContactList from '../../components/ContactList/ContactList';

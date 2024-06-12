@@ -15,15 +15,15 @@ function Footer() {
                 </div>
                 <div className="footer-column">
                     <h4>My Social Media</h4>
-                    <a href="https://www.facebook.com"><FontAwesomeIcon icon={faFacebook} /> Facebook</a>
-                    <a href="https://www.linkedin.com"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
-                    <a href="https://www.twitter.com"><FontAwesomeIcon icon={faTwitter} /> Twitter</a>
-                    <a href="https://www.instagram.com"><FontAwesomeIcon icon={faInstagram} /> Instagram</a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /> Facebook</a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /> Twitter</a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /> Instagram</a>
                 </div>
                 <div className="footer-column">
                     <h4>More from me</h4>
-                    <a href="https://github.com/poojatalele06"><FontAwesomeIcon icon={faGithub} /> Github</a>
-                    <a href="https://resume.com">Resume</a>
+                    <a href="https://github.com/poojatalele" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /> Github</a>
+                    <a href="https://resume.com" target='_blank' rel="noopener noreferrer">Resume</a>
                 </div>
             </div>
             <div className="signature">

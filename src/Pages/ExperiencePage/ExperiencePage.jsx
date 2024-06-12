@@ -1,6 +1,6 @@
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
-import Card from "../../components/Tile/Card";
+import Card from "../../components/Card/Card";
 import googlelogo from '../../components/images/google.png';
 
 
